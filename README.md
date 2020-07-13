@@ -13,7 +13,8 @@ Documentación api: [LINK](https://api-rest-auto.rj.r.appspot.com/swagger-ui.htm
 ### Ambiente local
 * Necesitamos tener instalado docker-compose [Docker-Compose-Install](https://docs.docker.com/compose/install/)
 * Levantar Mysql corriendo el comando `docker-compose up` en la carpeta raíz del proyecto.
-* Desde la terminal correr `mvn spring-boot:run`
+* Desde la terminal correr `mvn spring-boot:run -Dspring-boot.run.arguments=--spring.profiles.active=local
+`
 ### Ambiente dev 
 Para desplegar la aplicación en una instancia de google cloud necesitamos tener instalado el [SDK de Google Cloud](https://cloud.google.com/sdk/install) y un usuario con los roles necesarios para poder desplegar la aplicacion.
 
