@@ -1,0 +1,17 @@
+runtime: java
+env: flex
+runtime_config:
+  jdk: openjdk8
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
+manual_scaling:
+  instances: 1
+
+beta_settings:
+  cloud_sql_instances: api-rest-auto:southamerica-east1:develop
+
+resources:
+  cpu: 1
+  memory_gb: 2
+  disk_size_gb: 10
