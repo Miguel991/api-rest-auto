@@ -20,6 +20,6 @@ Para desplegar la aplicación en una instancia de google cloud necesitamos tener
 Desplegar la app: `mvn clean package appengine:deploy`
 
 ### Comandos Útiles
-Ejecutar test's unitarios: `mvn surefire:test`
-Ejecutar test's de integración: `mvn failsafe:integration-test`
-Ver logs de la aplicación desplegada en la instancia de google cloud: `gcloud app logs tail -s default`
+* Ejecutar test's unitarios: `mvn surefire:test`
+* Ejecutar test's de integración: `mvn failsafe:integration-test`
+* Ver logs de la aplicación desplegada en la instancia de google cloud: `gcloud app logs tail -s default`
